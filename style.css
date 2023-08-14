@@ -1,3 +1,7 @@
-.digits {
+.calculator-body {
     display: flex;
+}
+
+.calculator-body button {
+    width: 10em;
 }
