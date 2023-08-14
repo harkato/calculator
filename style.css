@@ -1,7 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    width:auto;
+    border: 2px, black;
+}
 .calculator-body {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
 }
 
 .calculator-body button {
-    width: 10em;
+    flex: 0 1 25%;
+    margin: 10px;
 }
